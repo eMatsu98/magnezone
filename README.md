@@ -2,15 +2,20 @@
 
 Magnezone is an interactive web page built with React, featuring my CV and engaging elements to explore and showcase my skills. Dive into various interactive projects and experiences to discover more about my journey and capabilities.
 
+This project is a Next.js application bootstrapped with create-next-app.
+
 ## Table of Contents
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- Features
+- Installation
+- Usage
+- Project Structure
+- Getting Started
+- Learn More
+- Deploy on Vercel
+- Contributing
+- License
+- Contact
 
 ## Features
 
@@ -24,7 +29,7 @@ Magnezone is an interactive web page built with React, featuring my CV and engag
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/eMatsu98/magnezone.git.git
+    git clone https://github.com/eMatsu98/magnezone.git
     ```
 
 2. Navigate to the project directory:
@@ -47,28 +52,37 @@ Magnezone is an interactive web page built with React, featuring my CV and engag
     npm start
     ```
 
-2. Open your browser and visit `http://localhost:3000` to see the project in action.
+2. Open your browser and visit http://localhost:3000 to see the project in action.
 
 ## Project Structure
+
+
 
 ```plaintext
 magnezone/
 ├── public/
-│   ├── index.html
+│   ├── next.svg
+│   ├── vercel.svg
 │   └── ...
 ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── App.js
-│   ├── index.js
+│   ├── app/
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── ...
 │   └── ...
+├── .eslintrc.json
 ├── .gitignore
+├── next.config.mjs
+├── package-lock.json
 ├── package.json
+├── postcss.config.mjs
 ├── README.md
+├── tailwind.config.ts
+├── tsconfig.json
 └── ...
 ```
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -104,3 +118,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Contact
+
+- Email: [orozco.emilio@hotmail.com](mailto:orozco.emilio@hotmail.com)
+- LinkedIn: [Emilio Orozco](https://www.linkedin.com/in/emilio-orozco-ibarra-335066307/)
+- GitHub: [eMatsu98](https://github.com/eMatsu98)
