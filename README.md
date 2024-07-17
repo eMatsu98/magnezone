@@ -68,8 +68,6 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Project Structure
 
-
-
 ```plaintext
 magnezone/
 ├── public/
